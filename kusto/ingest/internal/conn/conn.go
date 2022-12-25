@@ -13,11 +13,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Azure/azure-kusto-go/kusto"
-	"github.com/Azure/azure-kusto-go/kusto/data/errors"
-	"github.com/Azure/azure-kusto-go/kusto/ingest/internal/properties"
-	"github.com/Azure/azure-kusto-go/kusto/internal/response"
-	"github.com/Azure/azure-kusto-go/kusto/internal/version"
+	"github.com/SilverdewBaker/azure-kusto-go/kusto"
+	"github.com/SilverdewBaker/azure-kusto-go/kusto/data/errors"
+	"github.com/SilverdewBaker/azure-kusto-go/kusto/ingest/internal/properties"
+	"github.com/SilverdewBaker/azure-kusto-go/kusto/internal/response"
+	"github.com/SilverdewBaker/azure-kusto-go/kusto/internal/version"
 	"github.com/google/uuid"
 )
 

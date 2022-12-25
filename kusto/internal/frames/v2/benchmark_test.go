@@ -7,8 +7,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Azure/azure-kusto-go/kusto/data/errors"
-	"github.com/Azure/azure-kusto-go/kusto/internal/frames"
+	"github.com/SilverdewBaker/azure-kusto-go/kusto/data/errors"
+	"github.com/SilverdewBaker/azure-kusto-go/kusto/internal/frames"
 )
 
 // Current:

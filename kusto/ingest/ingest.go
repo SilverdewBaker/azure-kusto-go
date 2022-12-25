@@ -7,11 +7,11 @@ import (
 	"io"
 	"sync"
 
-	"github.com/Azure/azure-kusto-go/kusto/data/errors"
-	"github.com/Azure/azure-kusto-go/kusto/ingest/internal/conn"
-	"github.com/Azure/azure-kusto-go/kusto/ingest/internal/properties"
-	"github.com/Azure/azure-kusto-go/kusto/ingest/internal/queued"
-	"github.com/Azure/azure-kusto-go/kusto/ingest/internal/resources"
+	"github.com/SilverdewBaker/azure-kusto-go/kusto/data/errors"
+	"github.com/SilverdewBaker/azure-kusto-go/kusto/ingest/internal/conn"
+	"github.com/SilverdewBaker/azure-kusto-go/kusto/ingest/internal/properties"
+	"github.com/SilverdewBaker/azure-kusto-go/kusto/ingest/internal/queued"
+	"github.com/SilverdewBaker/azure-kusto-go/kusto/ingest/internal/resources"
 	"github.com/google/uuid"
 )
 

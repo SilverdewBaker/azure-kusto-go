@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Azure/azure-kusto-go/kusto/data/value"
+	"github.com/SilverdewBaker/azure-kusto-go/kusto/data/value"
 	"github.com/stretchr/testify/assert"
 )
 

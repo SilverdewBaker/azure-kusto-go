@@ -14,10 +14,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Azure/azure-kusto-go/kusto/data/types"
-	"github.com/Azure/azure-kusto-go/kusto/data/value"
-	ilog "github.com/Azure/azure-kusto-go/kusto/internal/log"
-	"github.com/Azure/azure-kusto-go/kusto/unsafe"
+	"github.com/SilverdewBaker/azure-kusto-go/kusto/data/types"
+	"github.com/SilverdewBaker/azure-kusto-go/kusto/data/value"
+	ilog "github.com/SilverdewBaker/azure-kusto-go/kusto/internal/log"
+	"github.com/SilverdewBaker/azure-kusto-go/kusto/unsafe"
 
 	"github.com/google/uuid"
 )

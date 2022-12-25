@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"strings"
 
-	kustoErrors "github.com/Azure/azure-kusto-go/kusto/data/errors"
 	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
 	"github.com/Azure/azure-sdk-for-go/sdk/azidentity"
+	kustoErrors "github.com/SilverdewBaker/azure-kusto-go/kusto/data/errors"
 )
 
 type ConnectionStringBuilder struct {

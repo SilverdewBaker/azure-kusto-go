@@ -1,8 +1,8 @@
 package status
 
 import (
-	"github.com/Azure/azure-kusto-go/kusto/ingest/internal/resources"
 	"github.com/Azure/azure-sdk-for-go/storage"
+	"github.com/SilverdewBaker/azure-kusto-go/kusto/ingest/internal/resources"
 	"github.com/google/uuid"
 )
 

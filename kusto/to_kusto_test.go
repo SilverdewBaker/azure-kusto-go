@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Azure/azure-kusto-go/kusto/data/table"
-	"github.com/Azure/azure-kusto-go/kusto/data/types"
-	"github.com/Azure/azure-kusto-go/kusto/data/value"
+	"github.com/SilverdewBaker/azure-kusto-go/kusto/data/table"
+	"github.com/SilverdewBaker/azure-kusto-go/kusto/data/types"
+	"github.com/SilverdewBaker/azure-kusto-go/kusto/data/value"
 
 	"github.com/google/uuid"
 	"github.com/kylelemons/godebug/pretty"

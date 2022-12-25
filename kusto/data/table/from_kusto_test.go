@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Azure/azure-kusto-go/kusto/data/types"
-	"github.com/Azure/azure-kusto-go/kusto/data/value"
+	"github.com/SilverdewBaker/azure-kusto-go/kusto/data/types"
+	"github.com/SilverdewBaker/azure-kusto-go/kusto/data/value"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/google/uuid"

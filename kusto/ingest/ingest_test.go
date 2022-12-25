@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/Azure/azure-kusto-go/kusto"
-	"github.com/Azure/azure-kusto-go/kusto/data/table"
-	"github.com/Azure/azure-kusto-go/kusto/data/types"
-	"github.com/Azure/azure-kusto-go/kusto/ingest/internal/resources"
+	"github.com/SilverdewBaker/azure-kusto-go/kusto"
+	"github.com/SilverdewBaker/azure-kusto-go/kusto/data/table"
+	"github.com/SilverdewBaker/azure-kusto-go/kusto/data/types"
+	"github.com/SilverdewBaker/azure-kusto-go/kusto/ingest/internal/resources"
 	"github.com/stretchr/testify/assert"
 )
 
