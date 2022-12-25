@@ -2,11 +2,12 @@ package kusto
 
 import (
 	"fmt"
+	"strconv"
+	"strings"
+
 	kustoErrors "github.com/Azure/azure-kusto-go/kusto/data/errors"
 	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
 	"github.com/Azure/azure-sdk-for-go/sdk/azidentity"
-	"strconv"
-	"strings"
 )
 
 type ConnectionStringBuilder struct {
@@ -356,7 +357,7 @@ func (kcsb *ConnectionStringBuilder) newTokenProvider() (*TokenProvider, error) 
 			return cred, nil
 		}
 	case kcsb.MsiAuthentication:
-		{
+		init = func(ci *CloudInfo, cliOpts *azcore.ClientOptions, appClientId string) (azcore.TokenCredential, error) {
 			opts := &azidentity.ManagedIdentityCredentialOptions{}
 			if kcsb.ClientOptions != nil {
 				opts.ClientOptions = *kcsb.ClientOptions
@@ -370,6 +371,8 @@ func (kcsb *ConnectionStringBuilder) newTokenProvider() (*TokenProvider, error) 
 				return nil, fmt.Errorf("error: Couldn't retrieve client credentials using Managed Identity: %s", err)
 			}
 			tkp.tokenCred = cred
+
+			return cred, nil
 		}
 	case !isEmpty(kcsb.UserToken):
 		{
